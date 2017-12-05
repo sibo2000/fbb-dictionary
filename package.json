@@ -1,0 +1,24 @@
+{
+  "name": "fbb-dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd react-ui/ && npm install --only=dev && npm install && npm run build", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibo2000/fbb-dictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sibo2000/fbb-dictionary/issues"
+  },
+  "homepage": "https://github.com/sibo2000/fbb-dictionary#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
