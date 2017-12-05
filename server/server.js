@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 5000;
 
 const Team = require('./models/teamModel');
 
-mongoose.set('debug', true);
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/fbb-dictionary');
 
 // Priority serve any static files.
